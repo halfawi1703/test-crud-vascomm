@@ -22,5 +22,5 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/form_add', [HomeController::class, 'form_add']);
 Route::post('/store', [HomeController::class, 'store']);
 Route::get('/form_edit/{id}', [HomeController::class, 'form_edit']);
-Route::post('/update/', [HomeController::class, 'update']);
+Route::post('/update', [HomeController::class, 'update']);
 Route::get('/destroy/{id}', [HomeController::class, 'destroy']);
